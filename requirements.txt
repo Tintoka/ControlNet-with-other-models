@@ -9,7 +9,7 @@ kornia
 omegaconf
 open-clip-torch
 opencv-contrib-python
-opencv-python-headles
+# opencv-python-headles
 prettytable
 pytorch-lightning
 safetensors
