@@ -41,9 +41,10 @@ MODEL_NAMES = {
 }
 MODEL_REPO = 'webui/ControlNet-modules-safetensors'
 
-DEFAULT_BASE_MODEL_REPO = 'DEFAULT_BASE_MODEL_REPO_PLACEHOLDER'
-DEFAULT_BASE_MODEL_FILENAME = 'DEFAULT_BASE_MODEL_FILENAME_PLACEHOLDER'
-DEFAULT_BASE_MODEL_URL = 'DEFAULT_BASE_MODEL_URL_PLACEHOLDER'
+# Change these lines in your model.py
+DEFAULT_BASE_MODEL_REPO = 'runwayml/stable-diffusion-v1-5'
+DEFAULT_BASE_MODEL_FILENAME = 'v1-5-pruned.safetensors'
+DEFAULT_BASE_MODEL_URL = 'https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.safetensors'
 
 # DEFAULT_BASE_MODEL_REPO = 'andite/anything-v4.0'
 # DEFAULT_BASE_MODEL_FILENAME = 'anything-v4.0-pruned.safetensors'
