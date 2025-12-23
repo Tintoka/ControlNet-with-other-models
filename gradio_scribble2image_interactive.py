@@ -27,7 +27,7 @@ def create_demo(process, max_images=12):
                                           step=1)
                 create_button = gr.Button(label='Start',
                                           value='Open drawing canvas!')
-                input_image = gr.Image(source='upload',
+                input_image = gr.Image(
                                        type='numpy',
                                        tool='sketch')
                 gr.Markdown(

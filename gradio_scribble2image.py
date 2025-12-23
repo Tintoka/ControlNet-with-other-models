@@ -9,7 +9,7 @@ def create_demo(process, max_images=12):
             gr.Markdown('## Control Stable Diffusion with Scribble Maps')
         with gr.Row():
             with gr.Column():
-                input_image = gr.Image(source='upload', type='numpy')
+                input_image = gr.Image( type='numpy')
                 prompt = gr.Textbox(label='Prompt')
                 run_button = gr.Button(label='Run')
                 with gr.Accordion('Advanced options', open=False):
