@@ -11,7 +11,7 @@ def create_demo(process, max_images=12):
             with gr.Column():
                 input_image = gr.Image( type='numpy')
                 prompt = gr.Textbox(label='Prompt')
-                run_button = gr.Button(label='Run')
+                run_button = gr.Button(value='Run')
                 with gr.Accordion('Advanced options', open=False):
                     num_samples = gr.Slider(label='Images',
                                             minimum=1,
