@@ -55,8 +55,7 @@ def create_demo(process, max_images=12):
             with gr.Column():
                 result_gallery = gr.Gallery(label='Output',
                                             show_label=False,
-                                            elem_id='gallery').style(
-                                                grid=2, height='auto')
+                                            elem_id='gallery',columns=2, height='auto')
         ips = [
             input_image, prompt, a_prompt, n_prompt, num_samples,
             image_resolution, detect_resolution, ddim_steps, scale, seed, eta
